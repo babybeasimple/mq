@@ -1,0 +1,19 @@
+{
+  "name": "mq",
+  "version": "0.0.0",
+  "description": "mq ==",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/babybeasimple/mq.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babybeasimple/mq/issues"
+  },
+  "homepage": "https://github.com/babybeasimple/mq"
+}

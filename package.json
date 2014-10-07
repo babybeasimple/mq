@@ -2,8 +2,9 @@
   "name": "mq",
   "version": "0.0.0",
   "description": "mq ==",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/babybeasimple/mq/issues"
   },
-  "homepage": "https://github.com/babybeasimple/mq"
+  "homepage": "https://github.com/babybeasimple/mq",
+  "dependencies": {
+    "logger": "0.0.1",
+    "redis": "^0.12.1",
+    "minimist": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "chai": "^1.9.2",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0",
+    "chai-change": "^1.0.0"
+  }
 }
